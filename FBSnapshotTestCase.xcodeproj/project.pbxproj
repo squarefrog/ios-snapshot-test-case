@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0EF9278F1AE4205000E6D3DF /* FBSnapshotTestCase+SwiftAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EF9278D1AE4205000E6D3DF /* FBSnapshotTestCase+SwiftAdditions.h */; };
+		0EF927901AE4205000E6D3DF /* FBSnapshotTestCase+SwiftAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF9278E1AE4205000E6D3DF /* FBSnapshotTestCase+SwiftAdditions.m */; };
 		B31987FC1AB782D100B0A900 /* FBSnapshotTestCase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B31987F01AB782D000B0A900 /* FBSnapshotTestCase.framework */; };
 		B31988281AB7849400B0A900 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = B31988201AB7849400B0A900 /* FBSnapshotTestCase.h */; };
 		B31988291AB7849400B0A900 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = B31988211AB7849400B0A900 /* FBSnapshotTestCase.m */; };
@@ -33,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0EF9278D1AE4205000E6D3DF /* FBSnapshotTestCase+SwiftAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase+SwiftAdditions.h"; sourceTree = "<group>"; };
+		0EF9278E1AE4205000E6D3DF /* FBSnapshotTestCase+SwiftAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase+SwiftAdditions.m"; sourceTree = "<group>"; };
 		B31987F01AB782D000B0A900 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B31987F41AB782D000B0A900 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
 		B31987FB1AB782D100B0A900 /* FBSnapshotTestCaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FBSnapshotTestCaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,6 +99,8 @@
 				B31988211AB7849400B0A900 /* FBSnapshotTestCase.m */,
 				B31988221AB7849400B0A900 /* FBSnapshotTestController.h */,
 				B31988231AB7849400B0A900 /* FBSnapshotTestController.m */,
+				0EF9278D1AE4205000E6D3DF /* FBSnapshotTestCase+SwiftAdditions.h */,
+				0EF9278E1AE4205000E6D3DF /* FBSnapshotTestCase+SwiftAdditions.m */,
 				B31988241AB7849400B0A900 /* UIImage+Compare.h */,
 				B31988251AB7849400B0A900 /* UIImage+Compare.m */,
 				B31988261AB7849400B0A900 /* UIImage+Diff.h */,
@@ -143,6 +149,7 @@
 				B319882E1AB7849400B0A900 /* UIImage+Diff.h in Headers */,
 				B31988281AB7849400B0A900 /* FBSnapshotTestCase.h in Headers */,
 				B319882C1AB7849400B0A900 /* UIImage+Compare.h in Headers */,
+				0EF9278F1AE4205000E6D3DF /* FBSnapshotTestCase+SwiftAdditions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +256,7 @@
 				B319882B1AB7849400B0A900 /* FBSnapshotTestController.m in Sources */,
 				B319882F1AB7849400B0A900 /* UIImage+Diff.m in Sources */,
 				B319882D1AB7849400B0A900 /* UIImage+Compare.m in Sources */,
+				0EF927901AE4205000E6D3DF /* FBSnapshotTestCase+SwiftAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
